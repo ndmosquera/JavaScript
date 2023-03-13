@@ -1,0 +1,29 @@
+.formulario{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+
+}
+
+.form-label{
+    padding-top: 1rem;
+}
+.input-group {
+    width: 150px;
+    height: 50px;
+}
+.meses {
+    width: 80px;
+    height: 50px;
+}
+
+.doble{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton{
+    margin-top: 2rem;
+}
