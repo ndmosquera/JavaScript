@@ -11,17 +11,32 @@
     <div id="app">
         <div class="form">
             <form action="">
-                <input type="text" id="task_name">
-                <input type="date" id="task_date">
+                <div class="form-field">
+                    <label for="task_name">Nombre de la tarea:</label>
+                    <input type="text" id="task_name">
+                </div>
+                <div class="form-field">
+                    <label for="priority">Prioridad:</label>
+                    <select id="priority">
+                        <option value="alta">Alta</option>
+                        <option value="media">Media</option>
+                        <option value="baja">Baja</option>
+                    </select>
+                </div>                    
+                <div class="form-field">
+                    <label for="task_date">Fecha de Vencimiento:</label>
+                    <input type="date" id="task_date">
+                </div>
+
                 <input type="submit" id="task_add" value="Añadir Tarea">
             </form>
         </div>
 
         <div id="task_container">
-
         </div>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="main.js"></script>
 </body>
 </html>
